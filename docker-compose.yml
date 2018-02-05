@@ -1,0 +1,10 @@
+version: "3"
+services:
+  linbpq:
+    image: ve3lsr/allmon2
+    restart: always
+    ports:
+      - 8081:80
+    volumes:
+      - $PWD/allmon.ini.php:/var/www/html/allmon.ini.php
+      - $PWD/.htpasswd:/var/www/html/.htpasswd
