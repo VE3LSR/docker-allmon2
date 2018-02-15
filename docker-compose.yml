@@ -6,5 +6,5 @@ services:
     ports:
       - 8081:80
     volumes:
-      - $PWD/allmon.ini.php:/var/www/html/allmon.ini.php
-      - $PWD/.htpasswd:/var/www/html/.htpasswd
+      - ./allmon.ini.php:/var/www/html/allmon.ini.php
+      - ./.htpasswd:/var/www/html/.htpasswd
