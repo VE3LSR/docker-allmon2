@@ -5,6 +5,10 @@ Note: You need to have an updated astdb.txt file. It's recommended you just make
 
 This project uses docker-compose for management. https://docs.docker.com/compose/
 
+# Getting Started
+
+Download this project and unzip it: https://github.com/VE3LSR/docker-allmon2/archive/master.zip
+
 # Running
 
 Create a `.htpassword` and `allmon.ini.php` in this directory, samples can be found https://github.com/tsawyer/allmon2
