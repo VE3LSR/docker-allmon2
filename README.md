@@ -3,7 +3,7 @@ Dockered AllMon2
 
 Note: You need to have an updated astdb.txt file. It's recommended you just make a cronjob somewhere that requests http://dockercontainer/astdb.php
 
-This project uses docker-compose for management. https://docs.docker.com/compose/
+This project uses docker and docker-compose for management. https://docs.docker.com/compose/
 
 # Getting Started
 
